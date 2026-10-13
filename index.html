@@ -4,54 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Webpage</title>
+  <meta name="theme-color" content="#10121a">
+  <title>Frame | Image Gallery</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="navbar">
-    <h2>MyDevSpace</h2>
-    <span>Day 1 / 20</span>
+  <header class="topbar">
+    <a class="logo" href="#">FRAME<span>.</span></a>
+    <span class="top-note">A VISUAL COLLECTION</span>
   </header>
 
-  <main>
-    <section class="hero">
-      <p class="tag">MY DEVELOPER JOURNEY</p>
-
-      <h1>Hello, I'm Rakesh!</h1>
-
-      <p class="description">
-        I'm learning frontend development and building
-        real projects, one step at a time.
+  <main class="container">
+    <section class="intro">
+      <p class="eyebrow">MY CREATIVE SPACE</p>
+      <h1>Stories in <span>every frame.</span></h1>
+      <p class="subtitle">
+        A collection of beautiful places, quiet moments,
+        and details worth remembering.
       </p>
-
-      <button id="startBtn">Start My Journey</button>
-      <p id="message" aria-live="polite"></p>
     </section>
 
-    <section class="skills">
-      <h2>What I'm Learning</h2>
+    <nav class="filters" aria-label="Filter gallery">
+      <button class="filter active" data-category="all">All</button>
+      <button class="filter" data-category="nature">Nature</button>
+      <button class="filter" data-category="architecture">Architecture</button>
+      <button class="filter" data-category="travel">Travel</button>
+    </nav>
 
-      <div class="skill-card">
-        <h3>HTML</h3>
-        <p>Building the structure of websites.</p>
-      </div>
+    <p id="gallery-count" class="gallery-count"
+       aria-live="polite">Loading photos...</p>
 
-      <div class="skill-card">
-        <h3>CSS</h3>
-        <p>Creating beautiful and responsive designs.</p>
-      </div>
+    <section id="gallery" class="gallery"
+             aria-label="Photo gallery"></section>
 
-      <div class="skill-card">
-        <h3>JavaScript</h3>
-        <p>Making websites interactive.</p>
-      </div>
-    </section>
+    <p class="footer-note">
+      Designed and built with HTML, CSS & JavaScript.
+    </p>
   </main>
 
-  <footer>
-    <p>Built by me | CodeAlpha Day 1</p>
-  </footer>
+  <div id="lightbox" class="lightbox"
+       role="dialog" aria-modal="true"
+       aria-label="Image viewer" hidden>
+    <button id="close-btn" class="close-btn"
+            aria-label="Close image viewer">×</button>
+
+    <button id="prev-btn" class="nav-btn prev-btn"
+            aria-label="Previous image">‹</button>
+
+    <figure class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+      <p id="image-position"></p>
+    </figure>
+
+    <button id="next-btn" class="nav-btn next-btn"
+            aria-label="Next image">›</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
