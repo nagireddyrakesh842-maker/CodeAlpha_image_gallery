@@ -1,5 +1,15 @@
-# CodeAlpha_image_gallery
 🖼️ Frame | Image Gallery
+
+<p align="center">
+  <strong>A beautiful visual collection of moments, places, and creativity.</strong>
+</p><p align="center">
+  A responsive image gallery built with HTML, CSS, and JavaScript as part of my CodeAlpha Frontend Development Internship.
+</p><p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
+</p>---
 
 ✨ About the Project
 
@@ -40,7 +50,7 @@ CodeAlpha_ImageGallery/
 
 1. Clone this repository:
    
-   git clone (https://github.com/nagireddyrakesh842-maker/CodeAlpha_image_gallery.git)
+   git clone [YOUR_REPOSITORY_URL](https://github.com/nagireddyrakesh842-maker/CodeAlpha_image_gallery.git)
 
 2. Open the project folder in VS Code.
 
@@ -77,3 +87,7 @@ B.Tech Computer Science & Engineering Student
 
 - GitHub: "Visit My GitHub" (https://github.com/nagireddyrakesh842-maker)
 - LinkedIn: "Connect with Me" (https://www.linkedin.com/in/rakesh-nagireddy-4862b03b0/)
+
+<p align="center">
+  <strong>Built with curiosity, creativity, and a passion for learning.</strong>
+</p>
